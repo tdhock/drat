@@ -5,3 +5,13 @@ License: GPL (>= 2)
 MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
 NeedsCompilation: no
 
+Package: re2r
+Version: 0.1.9999
+Depends: R (>= 3.3)
+Imports: Rcpp (>= 0.12.2), stringi, RcppParallel, htmlwidgets (>= 0.6),
+LinkingTo: Rcpp, RcppParallel
+Suggests: knitr (>= 1.12.3),testthat, rmarkdown (>=
+        0.9.5),microbenchmark, ggplot2, directlabels
+License: BSD_3_clause + file LICENSE
+MD5sum: e2904e4ee16f9f94dad176f2870cc820
+NeedsCompilation: yes
